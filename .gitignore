@@ -1,1 +1,13 @@
-./firebase-key.json
+# ignore vscode settings folder
+./.vscode/
+./venv/
+*.pyc
+__pycache__/
+# ignore .ds_store files
+.DS_Store
+# ignore env files
+.env
+# ignore firebase admin sdk key file
+firebase-key.json
+# ignore database files
+*.db

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Answer Paper</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 50px; background: #f9f9f9; }
+    .upload-box {
+      background: white; padding: 20px; border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-width: 400px; margin: auto;
+    }
+    input[type="file"] { margin: 20px 0; }
+    button {
+      background: #007BFF; color: white; border: none;
+      padding: 10px 15px; border-radius: 5px; cursor: pointer;
+    }
+    button:hover { background: #0056b3; }
+    #result { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="upload-box">
+    <h2>Upload Answer Paper</h2>
+    <input type="file" id="fileInput" accept="application/pdf" />
+    <br>
+    <button onclick="uploadFile()">Upload</button>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    async function uploadFile() {
+      const fileInput = document.getElementById('fileInput');
+      if (!fileInput.files.length) {
+        alert("Please select a file!");
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("file", fileInput.files[0]);
+
+      const res = await fetch("http://127.0.0.1:8000/upload", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await res.json();
+      document.getElementById("result").innerText = data.message + " (" + data.student + ")";
+    }
+  </script>
+</body>
+</html>

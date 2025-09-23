@@ -1,0 +1,2040 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 2796
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(Introduction to Programming SET A - AEC 01 ) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 759.1183464566928478 Td
+(Submitted by: Aishwarya M) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 739.8427559055118081 Td
+(Email: aishwarya.mukund@atriauniversity.edu.in) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 720.5671653543306547 Td
+(Submitted at: 9/19/2025, 9:55:57 AM) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 672.9451181102361943 Td
+(Question 1. With an example, differentiate between sep and end in the print\(\) function.?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 636.6616535433070112 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 617.3860629921259715 Td
+(Separate is the function in which you can separate the string/sentence with \(" "\) to get the output) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 589.0396062992125508 Td
+(Example :- sentence = \("to be or not to be"\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 560.69314960629913 Td
+(print\(sentence, sep\(, \)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 532.346692913385823 Td
+(O/P = 'to', 'be', 'or', 'not', 'to', be') Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 504.0002362204724022 Td
+(end function is where you can add anything at the end of the word) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 475.6537795275590383 Td
+(Example :- word = cat) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 447.3073228346456744 Td
+(print\(word, end="-"\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 418.9608661417322537 Td
+(O/P = c-a-t-) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 367.9372440944881646 Td
+(Question 2. What are lists in Python? With an example, explain why they are useful.?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 331.6537795275589815 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 312.3781889763778281 Td
+(List is where you can store your values. It can be a string, integer,etc) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 284.0317322834644074 Td
+(Example :- groceries = ["apple", "banana", "chocolate"]) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 255.6852755905511003 Td
+(print\(groceries\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 227.3388188976376796 Td
+(here the output will print the list of groceries.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 198.9923622047242588 Td
+(you can add, remove and sort anything form the lists) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 1 of 8) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 3264
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(Question 3. Give any two examples of built-in functions and explain what they do.?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 763.086850393700729 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 743.8112598425196893 Td
+(Built in functions are pre-given by python itself) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 715.4648031496062686 Td
+(example :-) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 687.1183464566928478 Td
+(1\) definition function\(def\):- it defines the function to make sure that the code is based on the def function) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 658.7718897637795408 Td
+(2\) import function) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 607.7482677165354517 Td
+(Question 4. a. What are conditional statements in Python?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 594.1419685039370506 Td
+(b. How do if, elif, and else work together in a program? Give an example.?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 557.8585039370078675 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 538.5829133858267141 Td
+(a\) Conditional Statements in python is the process in which whether the given statement is true or false.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 510.2364566929133503 Td
+(Example :-The boolean function \(bool\) decides whether the given function is true or false.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 481.8899999999999864 Td
+(It has 3 more conditions :-and, or, not) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 442.2049606299212314 Td
+("and" checks if both the statement is true) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 413.8585039370078107 Td
+("or" checks if one of the statement is true) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 385.5120472440944468 Td
+("not" checks if both the statement is false) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 345.8270078740156919 Td
+(b\) if statement :- tells if the statement is true.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 317.480551181102328 Td
+(elif statement = checks if the statement is true if the previous statement is false) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 289.1340944881889072 Td
+(else statement = says whether the conditional is true if both id and elif are false.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 260.7876377952754865 Td
+(Example :-) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 221.1025984251967884 Td
+(num = 5) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 192.7561417322833677 Td
+(if num<0:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 164.4096850393699469 Td
+(print \("The number is lesser than 5"\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 136.0632283464566399 Td
+(elif num ==0) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 107.7167716535432191 Td
+(print\("The number is equal to 5"\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 79.3703149606297984 Td
+(else:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 2 of 8) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 2760
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(print\("The number isgreater than 5"\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 748.346692913385823 Td
+(Question 5. Consider the function below:) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 721.1340944881890209 Td
+(def greet\(name\):) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 707.5277952755905062 Td
+( return "Hello " + name) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 680.3151968503937042 Td
+(a. What is the name of the function?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 666.7088976377953031 Td
+(b. What are the parameters of the function?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 653.1025984251969021 Td
+(c. What is the return value when we call greet\("Alice"\)?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 616.819133858267719 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 597.5435433070866793 Td
+(a\) The name of the function is def) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 569.1970866141732586 Td
+(b\) "Hello" is the parameter of the function) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 540.8506299212599515 Td
+(c\) "Alice" will be the return value which will go to the name.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 489.8270078740157487 Td
+(Question 6. words = ["abc"]) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 476.2207086614173477 Td
+(scale = 4.0) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 462.6144094488188898 Td
+(print\(f"Scaled size: {len\(words\) * scale}"\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 435.4018110236219741 Td
+(Predict and explain the output.?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 399.118346456692791 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 379.8427559055116944 Td
+(Explanation :-) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 351.4962992125982737 Td
+(Here, the word is "abc" which is a string. The scale of the word is 4.0.So, if we print) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 323.149842519684853 Td
+(print\(f"Scaled size :{len\(words\) * scale}"\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 294.8033858267715459 Td
+(as the formatted string is being used here to get the output more clearly, the output will come clearly.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 255.1183464566927341 Td
+(O/P = 12.0 as the scale is a float value) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 3 of 8) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 3459
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(Question 7. if x % 2 == 0:) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 785.7640157480315111 Td
+( print\("Even"\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 772.1577165354329964 Td
+(else:) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 758.5514173228345953 Td
+( print\("Odd"\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 731.3388188976377933 Td
+(a. What will be the output if x = 15?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 717.7325196850393922 Td
+(b. Can you summarise the purpose of this code in 1-2 sentences?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 681.4490551181102092 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 662.1734645669291695 Td
+(a\) if the value of x is 15, then the remainder \(as modulo function is used\) will be 0 as the modulo function gives the) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 650.8348818897637784 Td
+(remainder.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 622.4884251968503577 Td
+(O/P = even) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 582.8033858267716596 Td
+(it will print even as the remainder is 0.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 543.1183464566929615 Td
+(b\) x = 15) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 514.7718897637794271 Td
+(if 15%2 == 0: \(modulo function gives the remainder as the answer\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 486.42543307086612 Td
+(then it will print that the number is even. If it's not, then it,ll  print that the number is odd.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 435.4018110236220309 Td
+(Question 8. for i in range\(4\):) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 421.795511811023573 Td
+( for j in range\(1\):) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 408.1892125984251152 Td
+( print\(i * j\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 380.9766141732281994 Td
+(a. List all the values that i and j take in this nested loop.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 367.3703149606297416 Td
+(b. What is the output of the code?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 353.7640157480312837 Td
+(c. Suggest a change so that the entire output prints in a single line instead of multiple) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 340.1577165354328258 Td
+(lines.?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 303.8742519685036996 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 284.5986614173225462 Td
+(a\) i = 0 1 2 3) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 256.2522047244091254 Td
+(j = 0) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 216.5671653543304274 Td
+(b\)0 0) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 188.2207086614170066 Td
+(0 1) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 159.8742519685035859 Td
+(0 2) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 131.5277952755902788 Td
+(0 3) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 103.1813385826768581 Td
+(4 outputs will be given) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 4 of 8) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 3493
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(c\) To print the entire output in one line instead of multiple lines, you can use a while loop) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 759.6852755905511003 Td
+(num = 4) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 731.3388188976377933 Td
+(num = 1) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 702.9923622047243725 Td
+(while i < 4 and i < 1:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 674.6459055118109518 Td
+(print\(i*j\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 646.2994488188976447 Td
+(i = i + 1 \(you can increment this as i +=1\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 583.9372440944881646 Td
+(Question 9. def count_vowels\(word\):) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 570.3309448818897636 Td
+( count = 0) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 556.7246456692912489 Td
+( for ch in word:) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 543.1183464566929615 Td
+( if ch in "aeiou":) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 529.5120472440944468 Td
+( count += 1) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 515.9057480314960458 Td
+( return count) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 488.6931496062992437 Td
+(a. What will this function return for each of the following inputs: "Education", "aeiou",) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 475.0868503937007858 Td
+("rhythm"?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 461.480551181102328 Td
+(b. Explain why in is used instead of == in the above code.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 447.8742519685038701 Td
+(c. Is this a good way to count vowels? Suggest a small improvement to this function.?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 411.590787401574687 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 392.3151968503935905 Td
+(a\) "Education" will return to the def function) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 363.9687401574801697 Td
+("aeiou" will return the ch as we are counting the vowels in this.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 335.6222834645668058 Td
+("rhythm" will return the count value.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 295.9372440944880509 Td
+(b\) in is used instead of the == as == is used for equality of the variable whereas in is used for string to find out) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 284.5986614173226599 Td
+(whether in the word, the specific letter is there or not. We can even say how many times this letter occurred due to) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 273.2600787401573825 Td
+(count function.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 233.5750393700785708 Td
+(c\) The function might not give the output that it should come. We can use the while loop in this as a for loop will) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 222.2364566929132934 Td
+(have fixed number of iterations in it. While loop however will have a continuous output until we get the right answer) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 210.8978740157479024 Td
+(for it.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 5 of 8) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 3571
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(Question 10. def is_prime\(number\):) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 785.7640157480315111 Td
+( start = 2) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 772.1577165354329964 Td
+( while start ) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 758.5514173228345953 Td
+( print\(start % 2\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 744.9451181102361943 Td
+( start = start + 1) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 731.3388188976377933 Td
+(is_prime\(3\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 717.7325196850393922 Td
+(is_prime\(5\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 690.5199212598424765 Td
+(a. Predict and explain the output.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 676.9136220472440755 Td
+(b. This function clearly does not check for prime numbers. What does it actually do?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 640.6301574803150061 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 621.3545669291338527 Td
+(a\) is_prime has been defined here. So, the start number is 2. I a while loop, if start is less than the number given;) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 610.0159842519685753 Td
+(then it will print\(start%2\). In this, the modulo function\(%\) is being used to show the remainder as the answer.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 598.6774015748031843 Td
+(\(2%2=0\) . Now, the start number will be added by 1.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 558.9923622047244862 Td
+(is_prime\(3\) and is_prime\(5\);  3 and 5 are the prime numbers but they are not check the properly.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 519.3073228346456744 Td
+(b\) This function does'nt give the checking ofprime numbers as it check ifthe starting number is a prime number.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 479.6222834645669195 Td
+(def is_prime\(3\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 451.2758267716535556 Td
+(start = 2) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 422.9293700787401349 Td
+(while start<number) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 394.582913385826771 Td
+(print\(start%2 = 0\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 366.2364566929133503 Td
+(2=2+ 1) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 326.5514173228345953 Td
+(O/P = 3%2 is 0) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 286.8663779527558972 Td
+(def is_prime\(5\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 258.5199212598424765 Td
+(start = 2) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 230.1734645669290558 Td
+(while start<number) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 201.8270078740157487 Td
+(print\(start%2 = 0\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 173.480551181102328 Td
+(2 = 2+1) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 133.7955118110236299 Td
+(O/P = 5%2 is 0) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 94.1104724409449318 Td
+(Here it actually finds out whether the given prime number is divisible by the start number if the start number is) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 82.7718897637795408 Td
+(added by 1.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 6 of 8) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3144
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(Question 11. num = -3) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 785.7640157480315111 Td
+(while num ) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 772.1577165354329964 Td
+( print\(num\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 744.9451181102361943 Td
+(You expect this program to print integers between -3 and 3, but it does not work. What is) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 731.3388188976377933 Td
+(the issue and how can you fix it?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 695.0553543307086102 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 675.7797637795275705 Td
+(=> the num is -3 which is negative.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 647.4333070866141497 Td
+(=> while the number -3 is less than 3, they will expect to print the number -3 but it wont.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 619.086850393700729 Td
+(=> the issue is that the number -3, will not be printed as in the while loop, the statement is true.You can fix it by) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 607.7482677165354517 Td
+(using a for loop.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 568.0632283464566399 Td
+(for i in range \(-3, 3\):) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 539.7167716535432191 Td
+(print\(i\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 500.0317322834645211 Td
+(O/P= -3, -2, -2, 0, 1,2) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 449.0081102362204319 Td
+(Question 12. The following Python code has an error:) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 421.7955118110235162 Td
+(score = input\("Enter your score: "\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 408.1892125984250583 Td
+(print\(age + 5\)) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 380.9766141732281426 Td
+(What error will occur when this program runs? How would you correct the code so it) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 367.3703149606296847 Td
+(works properly?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 331.0868503937005016 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 311.8112598425193482 Td
+(An Indentation error will occur. This is because there is no gap after the print statement. And also age should be a) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 300.4726771653540709 Td
+(variable.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 260.7876377952752591 Td
+(code:-) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 221.102598425196561 Td
+(age =18) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 192.7561417322831403 Td
+(score = input\("Enter your score: "\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 164.4096850393697196 Td
+(print\(age + 5\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 7 of 8) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 4158
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(Question 13. Problem: Given a duration in minutes entered by the user, you need to) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 785.7640157480315111 Td
+(convert it into hours and minutes. For example, 130 minutes = 2 hours and 10 minutes.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 758.5514173228345953 Td
+(a. Which math operators do you need?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 744.9451181102361943 Td
+(b. Explain how you would solve this problem in steps. \(Code is not required.\)?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 708.6616535433070112 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 689.3860629921259715 Td
+(a\) math.ceil \( rounds up the number\) and math.floor \(rounds down the number\) is required to solve this problem) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 649.7010236220471597 Td
+(b\) Here the time 130 minutes is being converted to 2 hours and 10 minutes. So for this you can us these two) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 638.3624409448818824 Td
+(functions because in minutes or hours, a float value will be there.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 610.0159842519684616 Td
+(So just to get the nearest value, 2 math functions are used here.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 581.6695275590550409 Td
+(You can also use concatenation to add the minutes and second statements together so that it will be easier to find) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 570.3309448818897636 Td
+(out.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 541.9844881889763428 Td
+(You can use an input value just to make sure just to write the statement. You can also use int\(\) value for this as well) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 530.6459055118109518 Td
+(as the numbers are integers) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 479.6222834645668627 Td
+(Question 14. Problem: Given a sentence typed by the user, you need to find the longest) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 466.0159842519684616 Td
+(word in the sentence.) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 438.8033858267715459 Td
+(a. Do you need a loop? Why, or why not?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 425.197086614173088 Td
+(b. Explain how you would solve this problem in steps. \(Code is not required.\)?) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 388.9136220472439049 Td
+(Answer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 369.6380314960628084 Td
+(a\) Yes you need a loop to find out which is the longest word in the sentence because you need to loop through) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 358.2994488188974174 Td
+(every variable that is there and you can find out its length [len\(\)] of the sentence.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 329.9529921259840535 Td
+(Then you have to loop again just to find the length of each word.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 290.2679527559052985 Td
+(b\) 1. type the sentence first) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 261.9214960629918778 Td
+(1. 2. first find out how many words are there in the sentence) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 244.9136220472438481 Td
+(2. 3. then loop through each and every word and find out which word is the longest by using the length) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 233.5750393700785708 Td
+(function[len\(\)].) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 216.567165354330541 Td
+(3. 4. then by this you have to specify which word is the longest and how long is it.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 199.5592913385823977 Td
+(4. 5. After looping through it, it will print the longest word and its length.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0 g
+496.067401574803057 28.3464566929134207 Td
+(Page 8 of 8) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R ]
+/Count 8
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+29 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+30 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+31 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+32 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 19 0 R
+/F2 20 0 R
+/F3 21 0 R
+/F4 22 0 R
+/F5 23 0 R
+/F6 24 0 R
+/F7 25 0 R
+/F8 26 0 R
+/F9 27 0 R
+/F10 28 0 R
+/F11 29 0 R
+/F12 30 0 R
+/F13 31 0 R
+/F14 32 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+33 0 obj
+<<
+/Producer (jsPDF 3.0.2)
+/CreationDate (D:20250919155210+05'30')
+>>
+endobj
+34 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 35
+0000000000 65535 f 
+0000028186 00000 n 
+0000030054 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000003000 00000 n 
+0000003137 00000 n 
+0000006453 00000 n 
+0000006590 00000 n 
+0000009402 00000 n 
+0000009540 00000 n 
+0000013052 00000 n 
+0000013191 00000 n 
+0000016737 00000 n 
+0000016876 00000 n 
+0000020500 00000 n 
+0000020639 00000 n 
+0000023836 00000 n 
+0000023975 00000 n 
+0000028289 00000 n 
+0000028415 00000 n 
+0000028546 00000 n 
+0000028680 00000 n 
+0000028818 00000 n 
+0000028942 00000 n 
+0000029071 00000 n 
+0000029203 00000 n 
+0000029339 00000 n 
+0000029467 00000 n 
+0000029594 00000 n 
+0000029723 00000 n 
+0000029856 00000 n 
+0000029958 00000 n 
+0000030307 00000 n 
+0000030393 00000 n 
+trailer
+<<
+/Size 35
+/Root 34 0 R
+/Info 33 0 R
+/ID [ <89CAE40332368C73861E5954B56A85EA> <89CAE40332368C73861E5954B56A85EA> ]
+>>
+startxref
+30497
+%%EOF3 0 obj
+<< /Annots 35 0 R /Type /Page /MediaBox [ 0 0 595.28 841.89 ] /Resources 2 0 R
+/Parent 1 0 R /Rotate 0 /Contents 4 0 R >>
+endobj
+5 0 obj
+<< /Resources 2 0 R /Type /Page /Contents 6 0 R /Rotate 0 /MediaBox [ 0 0
+595.28 841.89 ] /Parent 1 0 R >>
+endobj
+7 0 obj
+<< /Resources 2 0 R /Type /Page /Contents 8 0 R /Rotate 0 /MediaBox [ 0 0
+595.28 841.89 ] /Parent 1 0 R >>
+endobj
+9 0 obj
+<< /Resources 2 0 R /Type /Page /Contents 10 0 R /Rotate 0 /MediaBox [ 0 0
+595.28 841.89 ] /Parent 1 0 R >>
+endobj
+11 0 obj
+<< /Resources 2 0 R /Type /Page /Contents 12 0 R /Rotate 0 /MediaBox [ 0 0
+595.28 841.89 ] /Parent 1 0 R >>
+endobj
+13 0 obj
+<< /Resources 2 0 R /Type /Page /Contents 14 0 R /Rotate 0 /MediaBox [ 0 0
+595.28 841.89 ] /Parent 1 0 R >>
+endobj
+15 0 obj
+<< /Resources 2 0 R /Type /Page /Contents 16 0 R /Rotate 0 /MediaBox [ 0 0
+595.28 841.89 ] /Parent 1 0 R >>
+endobj
+17 0 obj
+<< /Resources 2 0 R /Type /Page /Contents 18 0 R /Rotate 0 /MediaBox [ 0 0
+595.28 841.89 ] /Parent 1 0 R >>
+endobj
+33 0 obj
+<< /Producer (macOS Version 15.6.1 \(Build 24G90\) Quartz PDFContext, AppendMode 1.1)
+/ModDate (D:20250919102544Z00'00') /CreationDate (D:20250919102210Z00'00')
+>>
+endobj
+35 0 obj
+[ 42 0 R 43 0 R ]
+endobj
+36 0 obj
+null
+endobj
+37 0 obj
+<< /Type /XObject /Length 123 /FormType 1 /Resources 38 0 R /Subtype /Form
+/Filter /FlateDecode /BBox [ 0 0 304.03 10 ] >> stream
+x5N»ƒ0Ûù
+¹Ë…›;tfêD…¥E¢ù©N YÖyğã,8 „É4ŠA¿7^ØUQ*dôYÌ#E¿MXŠ>)jAxÒµÑ5$|Y“¡pD²°2¶JÇ‡ÒNyÍä{/u_Ÿ¶Ë5èä>«”y%ø#Ù+–?ª%G
+endstream
+endobj
+38 0 obj
+<< /ColorSpace << /Cs1 39 0 R >> /ExtGState << /Gs1 41 0 R >> /ProcSet [ /PDF
+] >>
+endobj
+39 0 obj
+[ /ICCBased 40 0 R ]
+endobj
+40 0 obj
+<< /Alternate /DeviceRGB /N 3 /Length 2612 /Filter /FlateDecode >> stream
+x–wTSÙ‡Ï½7½Ğ" %ôz	 Ò;HQ‰I€P†„&vDF)VdTÀG‡"cEƒ‚b×	òPÆÁQDEåİŒk	ï­5óŞšıÇYßÙç·×Ùgï}×º Pü‚ÂtX€4¡XîëÁ\ËÄ÷XÀáffGøDÔü½=™™¨HÆ³öî.€d»Û,¿P&sÖÿ‘"7C$ 
+EÕ6<~&å”S³Å2ÿÊô•)2†12¡	¢¬"ãÄ¯lö§æ+»É˜—&ä¡YÎ¼4Œ»PŞš%á£Œ¡\˜%àg£|e½TIš å÷(ÓÓøœL 0™_Ìç&¡l‰2Eî‰ò ”Ä9¼r‹ù9h x¦gäŠ‰Ib¦×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´0€¯o–E%Ym™h‘í­ííYÖæhù¿Ùß~Sı=ÈzûUñ&ìÏAŒYßlì¬/½ ö$Z›³¾•U ´m@åá¬Oï  ò ´Şœó†l^’Äâ'‹ììlsŸk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦?#I3eEå¦§¦KDÌÌ—Ïdı÷ÿãÀ9iÍÉÃ,œŸÀñ…èUQè”	„‰h»…<X.d
+„Õá6'~khu_ }…9P¸IÈo= C#$n?z}ë[1
+È¾¼h­‘¯s2zşçú\ŠnáLA"Sæödr%¢,£ß„lÁt 
+4.0,`€3pŞ  „€H–.Hi@²A>Ø 
+A1Øvƒjp ÔzĞN‚6p\WÀp€G@
+†ÁK0Şi‚ğ¢Aª¤™BÖZyCAP8ÅC‰’@ùĞ&¨*ƒª¡CP=ô#tº]ƒú Ğ 4ı}„˜ÓaØ ¶€Ù°;GÂËàDxœÀÛáJ¸>·Âáğ ,…_Â“@ÈÑFXñDBX$!k‘"¤©Eš¤¹H‘qä‡¡a˜Æã‡YŒábVaÖbJ0Õ˜c˜VLæ6f3ù‚¥bÕ±¦X'¬?v	6›-ÄV``[°—±Øaì;ÇÀâp~¸\2n5®·×Œ»€ëÃá&ñx¼*Şï‚Ásğb|!¾
+ßÆ¿'	Zk‚!– $l$Tçı„Â4Q¨Ot"†yÄ\b)±ØA¼I&N“I†$R$)™´TIj"]&=&½!“É:dGrY@^O®$Ÿ _%’?P”(&OJEBÙN9J¹@y@yC¥R¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ'_!Jş¦ü¸QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·O©@é°Ò%¥!BÓ¥yÒ¸´M´:ÚeÚ0G7¤ûÓ“éÅôè½ô	e%e[å(ååå³ÊRÂ0`ø3R¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•"•f••ªLUoÕÕªmªOÔ0j&jajÙjûÕ.«Ï§ÏwÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“š¾U—4Æ5šnšÉšåšç4Ç´hZµZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ>¤İ«=­c¨³Xg£N³Î]’.[7A·\·SwBOK/X/_¯Qï¡>QŸ­Ÿ¤¿G¿[ÊÀĞ Ú`‹A›Á¨¡Š¡¿aa£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ>ã[&°‰I’IÉMSØÔŞT`ºÏ´Ïkæh&4«5»Ç¢°ÜYY¬FÖ 9Ã<È|£y›ù+=‹X‹İ_,í,S-ë,Y)YXm´ê°úÃÚÄšk]c}Ç†jãc³Î¦İæµ­©-ßv¿í};š]°İ»N»Ïöö"û&û1=‡x‡½÷Øtv(»„}Õëèá¸ÎñŒã'{'±ÓI§ßYÎ)ÎÎ£ğÔ-rÑqá¸r‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄİØ=Ùı¸û+K‘G‹Ç”§“çÏ^ˆ—¯W‘W¯·’÷bïjï§>:>‰>>¾v¾«}/øaııvúİó×ğçú×ûO8¬	è
+¤FV>2	uÃÁÁ»‚/Ò_$\ÔBüCv…<	5]ús.,4¬&ìy¸Ux~xw-bEDCÄ»HÈÒÈG‹KwFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦={$vr©÷ÒİK‡ãìâ
+ãî.3\–³ìÚrµå©ËÏ®_ÁYq*ßÿ‰Â©åL®ô_¹wå×“»‡û’çÆ+çñ]øeü‘—„²„ÑD—Ä]‰cI®IIãOAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3='½/Ã4£0CºÊiÕîU¢@Ñ‘L(sYf»˜şLõHŒ$›%ƒY³j²ŞgGeŸÊQÌæôäšänËÉóÉû~5f5wug¾vş†üÁ5îk­…Ö®\Û¹Nw]Áºáõ¾ëm mHÙğËFËeßnŠŞÔQ Q°¾`h³ïæÆB¹BQá½-Î[lÅllíİf³­jÛ—"^ÑõbËâŠâO%Ü’ëßY}WùİÌö„í½¥ö¥ûwàvwÜİéºóX™bY^ÙĞ®à]­åÌò¢ò·»Wì¾Va[q`id´2¨²½J¯jGÕ§ê¤êšæ½ê{·íÚÇÛ×¿ßmÓÅ>¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoıàõC{«éP3£¹ø8!9ñâÇøï<ÙyŠ}ªé'ıŸö¶ĞZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€ÓÎ-?›ÿ|ôŒö™š³ÊgKÏ‘Îœ›9Ÿw~òBÆ…ñ‹‰‡:Wt>º´äÒ®°®ŞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ıÖ»–_ì~iéµïm½ép³ı–ã­¾}çú]û/Şöº}åÿ‹úî.¾{ÿ^Ü=é}ŞıÑ©^?Ìz8ıhıcìã¢'
+O*ª?­ıÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃÏ©Ï+F´FêG­GÏŒùŒİz±ôÅğËŒ—Óã…¿)ş¶÷•Ñ«Ÿ~wû½gbÉÄğkÑë™?JŞ¨¾9úÖömçdèäÓwiï¦§ŠŞ«¾?öı¡ûcôÇ‘éìOøO•Ÿ?w|	üòx&mfæß÷„óû
+endstream
+endobj
+41 0 obj
+<< /BM /Multiply /Type /ExtGState >>
+endobj
+42 0 obj
+<< /T (Nithya Sathish  ) /AP << /N 49 0 R >> /Rect [ 42.51969 310.0784 346.5497
+320.0784 ] /M (D:20250919102512Z00'00') /C [ 0.980392 0.803922 0.352941 ]
+/DA (//Helvetica 12 Tf 0 g) /F 4 /Type /Annot /Border [ 0 0 0 ] /QuadPoints
+[ 42.51968 320.0784 346.5497 320.0784 42.51968 310.0784 346.5497 310.0784
+] /Subtype /Highlight >>
+endobj
+43 0 obj
+<< /T (Nithya Sathish  ) /AP << /N 44 0 R >> /Rect [ 93.08969 281.7319 284.2097
+291.7319 ] /M (D:20250919102522Z00'00') /C [ 0.980392 0.803922 0.352941 ]
+/DA (//Helvetica 12 Tf 0 g) /F 4 /Type /Annot /Border [ 0 0 0 ] /QuadPoints
+[ 93.08968 291.7319 284.2097 291.7319 93.08968 281.7319 284.2097 281.7319
+] /Subtype /Highlight >>
+endobj
+44 0 obj
+<< /Type /XObject /Length 123 /FormType 1 /Resources 45 0 R /Subtype /Form
+/Filter /FlateDecode /BBox [ 0 0 191.12 10 ] >> stream
+x5±Â0C÷~…¿ ='èÍÌø€ˆ² RÉÿKøH«“uí+v˜Î‘	4|¸ãƒéÚˆÚ`£/–=Éü˜\’ÏD«˜n¢¢†‚·j. IªàâQéx©İº=f„õ½\·ù Ií«Š‘×²ë&r%y
+endstream
+endobj
+45 0 obj
+<< /ColorSpace << /Cs1 46 0 R >> /ExtGState << /Gs1 48 0 R >> /ProcSet [ /PDF
+] >>
+endobj
+46 0 obj
+[ /ICCBased 47 0 R ]
+endobj
+47 0 obj
+<< /Alternate /DeviceRGB /N 3 /Length 2612 /Filter /FlateDecode >> stream
+x–wTSÙ‡Ï½7½Ğ" %ôz	 Ò;HQ‰I€P†„&vDF)VdTÀG‡"cEƒ‚b×	òPÆÁQDEåİŒk	ï­5óŞšıÇYßÙç·×Ùgï}×º Pü‚ÂtX€4¡XîëÁ\ËÄ÷XÀáffGøDÔü½=™™¨HÆ³öî.€d»Û,¿P&sÖÿ‘"7C$ 
+EÕ6<~&å”S³Å2ÿÊô•)2†12¡	¢¬"ãÄ¯lö§æ+»É˜—&ä¡YÎ¼4Œ»PŞš%á£Œ¡\˜%àg£|e½TIš å÷(ÓÓøœL 0™_Ìç&¡l‰2Eî‰ò ”Ä9¼r‹ù9h x¦gäŠ‰Ib¦×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´0€¯o–E%Ym™h‘í­ííYÖæhù¿Ùß~Sı=ÈzûUñ&ìÏAŒYßlì¬/½ ö$Z›³¾•U ´m@åá¬Oï  ò ´Şœó†l^’Äâ'‹ììlsŸk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦?#I3eEå¦§¦KDÌÌ—Ïdı÷ÿãÀ9iÍÉÃ,œŸÀñ…èUQè”	„‰h»…<X.d
+„Õá6'~khu_ }…9P¸IÈo= C#$n?z}ë[1
+È¾¼h­‘¯s2zşçú\ŠnáLA"Sæödr%¢,£ß„lÁt 
+4.0,`€3pŞ  „€H–.Hi@²A>Ø 
+A1Øvƒjp ÔzĞN‚6p\WÀp€G@
+†ÁK0Şi‚ğ¢Aª¤™BÖZyCAP8ÅC‰’@ùĞ&¨*ƒª¡CP=ô#tº]ƒú Ğ 4ı}„˜ÓaØ ¶€Ù°;GÂËàDxœÀÛáJ¸>·Âáğ ,…_Â“@ÈÑFXñDBX$!k‘"¤©Eš¤¹H‘qä‡¡a˜Æã‡YŒábVaÖbJ0Õ˜c˜VLæ6f3ù‚¥bÕ±¦X'¬?v	6›-ÄV``[°—±Øaì;ÇÀâp~¸\2n5®·×Œ»€ëÃá&ñx¼*Şï‚Ásğb|!¾
+ßÆ¿'	Zk‚!– $l$Tçı„Â4Q¨Ot"†yÄ\b)±ØA¼I&N“I†$R$)™´TIj"]&=&½!“É:dGrY@^O®$Ÿ _%’?P”(&OJEBÙN9J¹@y@yC¥R¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ'_!Jş¦ü¸QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·O©@é°Ò%¥!BÓ¥yÒ¸´M´:ÚeÚ0G7¤ûÓ“éÅôè½ô	e%e[å(ååå³ÊRÂ0`ø3R¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•"•f••ªLUoÕÕªmªOÔ0j&jajÙjûÕ.«Ï§ÏwÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“š¾U—4Æ5šnšÉšåšç4Ç´hZµZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ>¤İ«=­c¨³Xg£N³Î]’.[7A·\·SwBOK/X/_¯Qï¡>QŸ­Ÿ¤¿G¿[ÊÀĞ Ú`‹A›Á¨¡Š¡¿aa£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ>ã[&°‰I’IÉMSØÔŞT`ºÏ´Ïkæh&4«5»Ç¢°ÜYY¬FÖ 9Ã<È|£y›ù+=‹X‹İ_,í,S-ë,Y)YXm´ê°úÃÚÄšk]c}Ç†jãc³Î¦İæµ­©-ßv¿í};š]°İ»N»Ïöö"û&û1=‡x‡½÷Øtv(»„}Õëèá¸ÎñŒã'{'±ÓI§ßYÎ)ÎÎ£ğÔ-rÑqá¸r‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄİØ=Ùı¸û+K‘G‹Ç”§“çÏ^ˆ—¯W‘W¯·’÷bïjï§>:>‰>>¾v¾«}/øaııvúİó×ğçú×ûO8¬	è
+¤FV>2	uÃÁÁ»‚/Ò_$\ÔBüCv…<	5]ús.,4¬&ìy¸Ux~xw-bEDCÄ»HÈÒÈG‹KwFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦={$vr©÷ÒİK‡ãìâ
+ãî.3\–³ìÚrµå©ËÏ®_ÁYq*ßÿ‰Â©åL®ô_¹wå×“»‡û’çÆ+çñ]øeü‘—„²„ÑD—Ä]‰cI®IIãOAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3='½/Ã4£0CºÊiÕîU¢@Ñ‘L(sYf»˜şLõHŒ$›%ƒY³j²ŞgGeŸÊQÌæôäšänËÉóÉû~5f5wug¾vş†üÁ5îk­…Ö®\Û¹Nw]Áºáõ¾ëm mHÙğËFËeßnŠŞÔQ Q°¾`h³ïæÆB¹BQá½-Î[lÅllíİf³­jÛ—"^ÑõbËâŠâO%Ü’ëßY}WùİÌö„í½¥ö¥ûwàvwÜİéºóX™bY^ÙĞ®à]­åÌò¢ò·»Wì¾Va[q`id´2¨²½J¯jGÕ§ê¤êšæ½ê{·íÚÇÛ×¿ßmÓÅ>¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoıàõC{«éP3£¹ø8!9ñâÇøï<ÙyŠ}ªé'ıŸö¶ĞZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€ÓÎ-?›ÿ|ôŒö™š³ÊgKÏ‘Îœ›9Ÿw~òBÆ…ñ‹‰‡:Wt>º´äÒ®°®ŞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ıÖ»–_ì~iéµïm½ép³ı–ã­¾}çú]û/Şöº}åÿ‹úî.¾{ÿ^Ü=é}ŞıÑ©^?Ìz8ıhıcìã¢'
+O*ª?­ıÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃÏ©Ï+F´FêG­GÏŒùŒİz±ôÅğËŒ—Óã…¿)ş¶÷•Ñ«Ÿ~wû½gbÉÄğkÑë™?JŞ¨¾9úÖömçdèäÓwiï¦§ŠŞ«¾?öı¡ûcôÇ‘éìOøO•Ÿ?w|	üòx&mfæß÷„óû
+endstream
+endobj
+48 0 obj
+<< /BM /Multiply /Type /ExtGState >>
+endobj
+49 0 obj
+<< /Type /XObject /Length 123 /FormType 1 /Resources 50 0 R /Subtype /Form
+/Filter /FlateDecode /BBox [ 0 0 304.03 10 ] >> stream
+x5N»ƒ0Ûù
+¹Ë…›;tfêD…¥E¢ù©N YÖyğã,8 „É4ŠA¿7^ØUQ*dôYÌ#E¿MXŠ>)jAxÒµÑ5$|Y“¡pD²°2¶JÇ‡ÒNyÍä{/u_Ÿ¶Ë5èä>«”y%ø#Ù+–?ª%G
+endstream
+endobj
+50 0 obj
+<< /ColorSpace << /Cs1 51 0 R >> /ExtGState << /Gs1 53 0 R >> /ProcSet [ /PDF
+] >>
+endobj
+51 0 obj
+[ /ICCBased 52 0 R ]
+endobj
+52 0 obj
+<< /Alternate /DeviceRGB /N 3 /Length 2612 /Filter /FlateDecode >> stream
+x–wTSÙ‡Ï½7½Ğ" %ôz	 Ò;HQ‰I€P†„&vDF)VdTÀG‡"cEƒ‚b×	òPÆÁQDEåİŒk	ï­5óŞšıÇYßÙç·×Ùgï}×º Pü‚ÂtX€4¡XîëÁ\ËÄ÷XÀáffGøDÔü½=™™¨HÆ³öî.€d»Û,¿P&sÖÿ‘"7C$ 
+EÕ6<~&å”S³Å2ÿÊô•)2†12¡	¢¬"ãÄ¯lö§æ+»É˜—&ä¡YÎ¼4Œ»PŞš%á£Œ¡\˜%àg£|e½TIš å÷(ÓÓøœL 0™_Ìç&¡l‰2Eî‰ò ”Ä9¼r‹ù9h x¦gäŠ‰Ib¦×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´0€¯o–E%Ym™h‘í­ííYÖæhù¿Ùß~Sı=ÈzûUñ&ìÏAŒYßlì¬/½ ö$Z›³¾•U ´m@åá¬Oï  ò ´Şœó†l^’Äâ'‹ììlsŸk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦?#I3eEå¦§¦KDÌÌ—Ïdı÷ÿãÀ9iÍÉÃ,œŸÀñ…èUQè”	„‰h»…<X.d
+„Õá6'~khu_ }…9P¸IÈo= C#$n?z}ë[1
+È¾¼h­‘¯s2zşçú\ŠnáLA"Sæödr%¢,£ß„lÁt 
+4.0,`€3pŞ  „€H–.Hi@²A>Ø 
+A1Øvƒjp ÔzĞN‚6p\WÀp€G@
+†ÁK0Şi‚ğ¢Aª¤™BÖZyCAP8ÅC‰’@ùĞ&¨*ƒª¡CP=ô#tº]ƒú Ğ 4ı}„˜ÓaØ ¶€Ù°;GÂËàDxœÀÛáJ¸>·Âáğ ,…_Â“@ÈÑFXñDBX$!k‘"¤©Eš¤¹H‘qä‡¡a˜Æã‡YŒábVaÖbJ0Õ˜c˜VLæ6f3ù‚¥bÕ±¦X'¬?v	6›-ÄV``[°—±Øaì;ÇÀâp~¸\2n5®·×Œ»€ëÃá&ñx¼*Şï‚Ásğb|!¾
+ßÆ¿'	Zk‚!– $l$Tçı„Â4Q¨Ot"†yÄ\b)±ØA¼I&N“I†$R$)™´TIj"]&=&½!“É:dGrY@^O®$Ÿ _%’?P”(&OJEBÙN9J¹@y@yC¥R¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ'_!Jş¦ü¸QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·O©@é°Ò%¥!BÓ¥yÒ¸´M´:ÚeÚ0G7¤ûÓ“éÅôè½ô	e%e[å(ååå³ÊRÂ0`ø3R¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•"•f••ªLUoÕÕªmªOÔ0j&jajÙjûÕ.«Ï§ÏwÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“š¾U—4Æ5šnšÉšåšç4Ç´hZµZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ>¤İ«=­c¨³Xg£N³Î]’.[7A·\·SwBOK/X/_¯Qï¡>QŸ­Ÿ¤¿G¿[ÊÀĞ Ú`‹A›Á¨¡Š¡¿aa£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ>ã[&°‰I’IÉMSØÔŞT`ºÏ´Ïkæh&4«5»Ç¢°ÜYY¬FÖ 9Ã<È|£y›ù+=‹X‹İ_,í,S-ë,Y)YXm´ê°úÃÚÄšk]c}Ç†jãc³Î¦İæµ­©-ßv¿í};š]°İ»N»Ïöö"û&û1=‡x‡½÷Øtv(»„}Õëèá¸ÎñŒã'{'±ÓI§ßYÎ)ÎÎ£ğÔ-rÑqá¸r‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄİØ=Ùı¸û+K‘G‹Ç”§“çÏ^ˆ—¯W‘W¯·’÷bïjï§>:>‰>>¾v¾«}/øaııvúİó×ğçú×ûO8¬	è
+¤FV>2	uÃÁÁ»‚/Ò_$\ÔBüCv…<	5]ús.,4¬&ìy¸Ux~xw-bEDCÄ»HÈÒÈG‹KwFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦={$vr©÷ÒİK‡ãìâ
+ãî.3\–³ìÚrµå©ËÏ®_ÁYq*ßÿ‰Â©åL®ô_¹wå×“»‡û’çÆ+çñ]øeü‘—„²„ÑD—Ä]‰cI®IIãOAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3='½/Ã4£0CºÊiÕîU¢@Ñ‘L(sYf»˜şLõHŒ$›%ƒY³j²ŞgGeŸÊQÌæôäšänËÉóÉû~5f5wug¾vş†üÁ5îk­…Ö®\Û¹Nw]Áºáõ¾ëm mHÙğËFËeßnŠŞÔQ Q°¾`h³ïæÆB¹BQá½-Î[lÅllíİf³­jÛ—"^ÑõbËâŠâO%Ü’ëßY}WùİÌö„í½¥ö¥ûwàvwÜİéºóX™bY^ÙĞ®à]­åÌò¢ò·»Wì¾Va[q`id´2¨²½J¯jGÕ§ê¤êšæ½ê{·íÚÇÛ×¿ßmÓÅ>¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoıàõC{«éP3£¹ø8!9ñâÇøï<ÙyŠ}ªé'ıŸö¶ĞZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€ÓÎ-?›ÿ|ôŒö™š³ÊgKÏ‘Îœ›9Ÿw~òBÆ…ñ‹‰‡:Wt>º´äÒ®°®ŞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ıÖ»–_ì~iéµïm½ép³ı–ã­¾}çú]û/Şöº}åÿ‹úî.¾{ÿ^Ü=é}ŞıÑ©^?Ìz8ıhıcìã¢'
+O*ª?­ıÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃÏ©Ï+F´FêG­GÏŒùŒİz±ôÅğËŒ—Óã…¿)ş¶÷•Ñ«Ÿ~wû½gbÉÄğkÑë™?JŞ¨¾9úÖömçdèäÓwiï¦§ŠŞ«¾?öı¡ûcôÇ‘éìOøO•Ÿ?w|	üòx&mfæß÷„óû
+endstream
+endobj
+53 0 obj
+<< /BM /Multiply /Type /ExtGState >>
+endobj
+xref
+0 1
+0000000000 65535 f 
+3 1
+0000031355 00000 n 
+5 1
+0000031492 00000 n 
+7 1
+0000031614 00000 n 
+9 1
+0000031736 00000 n 
+11 1
+0000031859 00000 n 
+13 1
+0000031983 00000 n 
+15 1
+0000032107 00000 n 
+17 1
+0000032231 00000 n 
+33 1
+0000032355 00000 n 
+35 19
+0000032535 00000 n 
+0000032569 00001 f 
+0000032590 00000 n 
+0000032870 00000 n 
+0000032969 00000 n 
+0000033006 00000 n 
+0000035719 00000 n 
+0000035772 00000 n 
+0000036117 00000 n 
+0000036462 00000 n 
+0000036742 00000 n 
+0000036841 00000 n 
+0000036878 00000 n 
+0000039591 00000 n 
+0000039644 00000 n 
+0000039924 00000 n 
+0000040023 00000 n 
+0000040060 00000 n 
+0000042773 00000 n 
+trailer
+<< /ID [<89CAE40332368C73861E5954B56A85EA><51712D5AA0EFEFD0F5D737E3CE23A9A6> ] /Root 34 0 R /Size 54 /Prev 30497 /Info 33 0 R >> 
+startxref
+42826
+%%EOF

@@ -2,49 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Upload Answer Paper</title>
+  <title>Exam Upload Flow</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 50px; background: #f9f9f9; }
-    .upload-box {
-      background: white; padding: 20px; border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-width: 400px; margin: auto;
-    }
-    input[type="file"] { margin: 20px 0; }
-    button {
-      background: #007BFF; color: white; border: none;
-      padding: 10px 15px; border-radius: 5px; cursor: pointer;
-    }
+    body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; }
+    .section { background: #fff; padding: 20px; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-width: 600px; display: none; }
+    h2 { margin-top: 0; }
+    input, button { margin: 10px 0; padding: 8px; width: 100%; }
+    button { background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; }
     button:hover { background: #0056b3; }
-    #result { margin-top: 20px; }
+    #result { margin-top: 20px; font-weight: bold; }
+    .responses { background: #f1f1f1; padding: 10px; margin-top: 10px; border-radius: 5px; }
   </style>
 </head>
 <body>
-  <div class="upload-box">
-    <h2>Upload Answer Paper</h2>
-    <input type="file" id="fileInput" accept="application/pdf" />
-    <br>
-    <button onclick="uploadFile()">Upload</button>
-    <div id="result"></div>
+  <!-- Step 1 -->
+  <div class="section" id="step1" style="display:block;">
+    <h2>Step 1: Create Course + Exam Set</h2>
+    <input id="courseName" type="text" placeholder="Course Name">
+    <input id="examSetName" type="text" placeholder="Exam Set Name">
+    <button onclick="createExamSet()">Next</button>
   </div>
 
+  <!-- Step 2 -->
+  <div class="section" id="step2">
+    <h2>Step 2: Upload Marks Scheme</h2>
+    <input id="marksFile" type="file" accept=".txt,.json,.csv">
+    <button onclick="uploadMarksScheme()">Next</button>
+  </div>
+
+  <!-- Step 3 -->
+  <div class="section" id="step3">
+    <h2>Step 3: Upload Student Answer Sheets</h2>
+    <input id="ansFile" type="file" accept="application/pdf">
+    <button onclick="uploadAnswer()">Upload Answer Sheet</button>
+    <button onclick="viewResponses()">View All Responses</button>
+  </div>
+
+  <!-- Step 4 -->
+  <div class="section" id="step4">
+    <h2>Student Responses</h2>
+    <div id="responsesContainer"></div>
+  </div>
+
+  <div id="result"></div>
+
   <script>
-    async function uploadFile() {
-      const fileInput = document.getElementById('fileInput');
-      if (!fileInput.files.length) {
-        alert("Please select a file!");
-        return;
-      }
+    let courseName = "";
+    let examSetName = "";
+
+    async function createExamSet() {
+      courseName = document.getElementById("courseName").value;
+      examSetName = document.getElementById("examSetName").value;
 
       const formData = new FormData();
-      formData.append("file", fileInput.files[0]);
+      formData.append("course_name", courseName);
+      formData.append("exam_set_name", examSetName);
 
-      const res = await fetch("http://127.0.0.1:8000/upload", {
-        method: "POST",
-        body: formData
+      const res = await fetch("http://127.0.0.1:8000/create_exam_set", { method: "POST", body: formData });
+      const data = await res.json();
+      document.getElementById("result").innerText = data.message;
+
+      document.getElementById("step1").style.display = "none";
+      document.getElementById("step2").style.display = "block";
+    }
+
+    async function uploadMarksScheme() {
+      const formData = new FormData();
+      formData.append("course_name", courseName);
+      formData.append("exam_set_name", examSetName);
+      formData.append("file", document.getElementById("marksFile").files[0]);
+
+      const res = await fetch("http://127.0.0.1:8000/upload_marks_scheme", { method: "POST", body: formData });
+      const data = await res.json();
+      document.getElementById("result").innerText = data.message;
+
+      document.getElementById("step2").style.display = "none";
+      document.getElementById("step3").style.display = "block";
+    }
+
+    async function uploadAnswer() {
+      const formData = new FormData();
+      formData.append("course_name", courseName);
+      formData.append("exam_set_name", examSetName);
+      formData.append("file", document.getElementById("ansFile").files[0]);
+
+      const res = await fetch("http://127.0.0.1:8000/upload_answer", { method: "POST", body: formData });
+      const data = await res.json();
+      document.getElementById("result").innerText = data.message;
+    }
+
+    async function viewResponses() {
+      const res = await fetch(`http://127.0.0.1:8000/get_responses?course_name=${courseName}&exam_set_name=${examSetName}`);
+      const data = await res.json();
+
+      const container = document.getElementById("responsesContainer");
+      container.innerHTML = "";
+      data.forEach(student => {
+        let block = `<div class="responses"><h3>${student.student_name}</h3>`;
+        student.responses.forEach(r => {
+          block += `<p><b>Q:</b> ${r.question}<br><b>A:</b> ${r.answer}<br><b>Marks:</b> ${r.marks ?? "Not graded"}</p>`;
+        });
+        block += "</div>";
+        container.innerHTML += block;
       });
 
-      const data = await res.json();
-      document.getElementById("result").innerText = data.message + " (" + data.student + ")";
+      document.getElementById("step3").style.display = "none";
+      document.getElementById("step4").style.display = "block";
     }
   </script>
 </body>

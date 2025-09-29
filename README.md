@@ -4,6 +4,7 @@ firebase-admin → to interact with Firebase
 
 
 ## schema
+```
 courses (collection)
   └── {course_id} (document)
        ├── course_name: string
@@ -21,7 +22,7 @@ courses (collection)
                             └── responses: [
                                   { question: string, answer: string, marks: int/null }
                               ]
-
+```
 
 ## firestore collection
 courses/{course_id}/exam_sets/{exam_set_id}

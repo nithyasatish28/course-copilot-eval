@@ -25,7 +25,9 @@ courses (collection)
 ```
 
 ## firestore collection
+```
 courses/{course_id}/exam_sets/{exam_set_id}
   ├── exam_set_name
   ├── marks_scheme (map or subcollection)
   └── answer_sheets/{student_id}
+```
